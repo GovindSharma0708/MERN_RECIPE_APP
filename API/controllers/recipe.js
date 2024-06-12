@@ -29,8 +29,8 @@ export const add = async (req,res)=>{
 
 export const getAllRecipe = async (req,res) =>{
     const recipe = await Recipe.find();
-    res.json({recipe}) 
-}
+    res.json({recipe}); 
+};
 
 
 export const getRecipeById = async (req,res)=>{

@@ -4,7 +4,7 @@ import { add, getAllRecipe, getRecipeById, getRecipeByUserId, getSavedRecipe, sa
 import { Authenticate } from '../middlewares/auth.js';
 
 const router = express.Router();
-
+              
 // create recipe
 router.post('/add',Authenticate, add)
 
